@@ -1,0 +1,24 @@
+{
+  "checkpoint_dir": "runs/ppo_common_rule_40m_subproc/common_rule_based_seed_1_40m_nenv12_tactical/checkpoints",
+  "episode_stats": {
+    "average_decisions": 50.530047223157254,
+    "average_learner_timesteps": 26.049593104754933,
+    "average_turns": 33.173702177031174,
+    "completed_episodes": 1535899,
+    "episodes_per_100k_timesteps": 3838.813900459408,
+    "last_completed_episode_timestep": 40009716,
+    "learner_win_rate": 0.5643984402620225,
+    "learner_wins": 866859,
+    "max_decisions": 138,
+    "max_learner_timesteps": 71,
+    "max_turns": 83
+  },
+  "evaluation": {},
+  "finished_at": "2026-06-07T20:17:54.611008+00:00",
+  "model_path": "runs/ppo_common_rule_40m_subproc/common_rule_based_seed_1_40m_nenv12_tactical/model.zip",
+  "observation_mode": "tactical",
+  "reward_mode": "terminal",
+  "started_at": "2026-06-07T16:23:33.987191+00:00",
+  "target_total_timesteps": 40000000,
+  "trained_timesteps": 40009728
+}

@@ -1,0 +1,7 @@
+.venv/
+checkpoints/
+local_artifacts/
+__pycache__/
+*.pyc
+.DS_Store
+results/

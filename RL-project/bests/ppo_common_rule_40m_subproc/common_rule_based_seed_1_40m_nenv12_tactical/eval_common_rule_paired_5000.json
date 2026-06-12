@@ -1,0 +1,46 @@
+{
+  "average_decisions": 49.1128,
+  "average_game_seconds": 0.039190835649613294,
+  "average_turns": 32.5478,
+  "base_seed_count": 2500,
+  "base_seed_sha256": "ca2043aa9201169d58d9aea993ac1d30af5f6c1202387b4ece834a36218370a1",
+  "completed_games": 5000,
+  "confidence_interval_95": {
+    "lower": 0.5909722859002906,
+    "method": "wilson",
+    "upper": 0.6180671108528035
+  },
+  "deterministic": true,
+  "elapsed_seconds": 195.95417824806646,
+  "evaluated_at": "2026-06-08T00:21:43.932158+00:00",
+  "evaluation_error_count": 0,
+  "evaluation_errors": [],
+  "illegal_action_count": 0,
+  "losses": 1977,
+  "model_first": {
+    "games": 2500,
+    "losses": 981,
+    "win_rate": 0.6076,
+    "wins": 1519
+  },
+  "model_path": "runs/ppo_common_rule_40m_subproc/common_rule_based_seed_1_40m_nenv12_tactical/model.zip",
+  "model_second": {
+    "games": 2500,
+    "losses": 996,
+    "win_rate": 0.6016,
+    "wins": 1504
+  },
+  "model_type": "Pure RL",
+  "observation_mode": "tactical",
+  "opponent": "common_rule_based",
+  "pass_threshold": 0.6,
+  "passed": true,
+  "protocol": "common_rule_based_paired_v1",
+  "scheduled_games": 5000,
+  "seed_source": "range:100000:2500",
+  "training_reward_mode": "terminal",
+  "training_seed": 1,
+  "valid_official_result": true,
+  "win_rate": 0.6046,
+  "wins": 3023
+}

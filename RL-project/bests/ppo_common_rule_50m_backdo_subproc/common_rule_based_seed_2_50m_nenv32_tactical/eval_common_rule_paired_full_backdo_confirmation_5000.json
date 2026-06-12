@@ -1,0 +1,58 @@
+{
+  "action_size": 24,
+  "average_decisions": 49.0896,
+  "average_game_seconds": 0.007060570852202363,
+  "average_turns": 32.8542,
+  "back_do_stats": {
+    "back_do_action_count": 7965,
+    "back_do_capture_count": 1387,
+    "back_do_captured_piece_count": 1667,
+    "back_do_from_home_count": 288,
+    "back_do_home_entry_count": 1120,
+    "back_do_roll_count": 9402,
+    "no_legal_action_auto_pass_count": 1307
+  },
+  "base_seed_count": 2500,
+  "base_seed_sha256": "6fc54e1d2f9ae55b64fae08e9749e5af6d49882dd0bd7443654deaf2c22109b2",
+  "completed_games": 5000,
+  "confidence_interval_95": {
+    "lower": 0.592580610064823,
+    "method": "wilson",
+    "upper": 0.6196563300420468
+  },
+  "deterministic": true,
+  "elapsed_seconds": 35.30285426101182,
+  "evaluated_at": "2026-06-11T00:32:43.705470+00:00",
+  "evaluation_error_count": 0,
+  "evaluation_errors": [],
+  "illegal_action_count": 0,
+  "losses": 1969,
+  "model_first": {
+    "games": 2500,
+    "losses": 979,
+    "win_rate": 0.6084,
+    "wins": 1521
+  },
+  "model_path": "runs/ppo_common_rule_50m_backdo_subproc/common_rule_based_seed_2_50m_nenv32_tactical/model.zip",
+  "model_second": {
+    "games": 2500,
+    "losses": 990,
+    "win_rate": 0.604,
+    "wins": 1510
+  },
+  "model_type": "Pure RL",
+  "observation_mode": "tactical",
+  "observation_size": 302,
+  "opponent": "common_rule_based",
+  "pass_threshold": 0.6,
+  "passed": true,
+  "protocol": "common_rule_based_paired_full_backdo_v1",
+  "ruleset": "full_backdo_v1",
+  "scheduled_games": 5000,
+  "seed_source": "range:400000:2500",
+  "training_reward_mode": "terminal",
+  "training_seed": 2,
+  "valid_official_result": true,
+  "win_rate": 0.6062,
+  "wins": 3031
+}

@@ -1,0 +1,10 @@
+numpy
+pytest
+gymnasium
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+stable-baselines3
+sb3-contrib
+pandas
+matplotlib
+tqdm

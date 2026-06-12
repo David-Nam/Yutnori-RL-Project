@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Virtual environments and local package metadata
+.venv/
+venv/
+/env/
+/ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# RL experiment outputs
+results/
+runs/
+logs/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+checkpoints/
+models/
+artifacts/
+
+# Model and replay-buffer artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+
+# Generated reports and media
+*.mp4
+*.gif
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,61 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+
+# Virtual environments and package artifacts
+.venv/
+venv/
+/env/
+/ENV/
+/*/env/
+/*/ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter and plotting caches
+.ipynb_checkpoints/
+.matplotlib/
+
+# Reinforcement-learning experiment output
+runs/
+logs/
+results/
+checkpoints/
+local_artifacts/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+*.log
+
+# Generated media
+*.mp4
+*.gif

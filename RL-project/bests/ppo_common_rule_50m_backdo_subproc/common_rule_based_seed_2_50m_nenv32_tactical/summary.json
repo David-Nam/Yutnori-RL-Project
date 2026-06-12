@@ -1,0 +1,36 @@
+{
+  "action_size": 24,
+  "checkpoint_dir": "runs/ppo_common_rule_50m_backdo_subproc/common_rule_based_seed_2_50m_nenv32_tactical/checkpoints",
+  "episode_stats": {
+    "average_decisions": 50.13949435234489,
+    "average_learner_timesteps": 25.7455491699713,
+    "average_turns": 33.240446766641504,
+    "back_do_stats": {
+      "back_do_action_count": 3240546,
+      "back_do_capture_count": 579909,
+      "back_do_captured_piece_count": 696579,
+      "back_do_from_home_count": 103516,
+      "back_do_home_entry_count": 442244,
+      "back_do_roll_count": 3783833,
+      "no_legal_action_auto_pass_count": 496900
+    },
+    "completed_episodes": 1942222,
+    "episodes_per_100k_timesteps": 3884.1357549864842,
+    "last_completed_episode_timestep": 50003936,
+    "learner_win_rate": 0.5699688295158843,
+    "learner_wins": 1107006,
+    "max_decisions": 145,
+    "max_learner_timesteps": 73,
+    "max_turns": 87
+  },
+  "evaluation": {},
+  "finished_at": "2026-06-10T06:08:03.502174+00:00",
+  "model_path": "runs/ppo_common_rule_50m_backdo_subproc/common_rule_based_seed_2_50m_nenv32_tactical/model.zip",
+  "observation_mode": "tactical",
+  "observation_size": 302,
+  "reward_mode": "terminal",
+  "ruleset": "full_backdo_v1",
+  "started_at": "2026-06-10T04:44:46.996271+00:00",
+  "target_total_timesteps": 50000000,
+  "trained_timesteps": 50003968
+}
